@@ -1133,7 +1133,7 @@ Wire Wire Line
 	12500 4600 12200 4600
 Connection ~ 12500 4600
 Wire Wire Line
-	12500 4600 12500 5000
+	12500 4600 12500 4900
 $Comp
 L Device:C_Small C25
 U 1 1 5D02D983
@@ -1488,4 +1488,13 @@ Text Label 4100 9400 3    50   ~ 0
 DOUT
 NoConn ~ 4300 9250
 NoConn ~ 4400 9250
+Wire Wire Line
+	12650 4900 12500 4900
+Connection ~ 12500 4900
+Wire Wire Line
+	12500 4900 12500 5000
+Wire Wire Line
+	13100 5250 12950 5250
+Text GLabel 13000 5250 3    50   Input ~ 0
+DGND
 $EndSCHEMATC
